@@ -25,7 +25,7 @@ STATEMENT:
             isalpha() function and if it is not i am comparing with some operators using if block if it is a special character it will 
             print operator.
  CODE 1:
-//AP21110011277
+//AP21110010978
 #include<stdio.h>
 #include<ctype.h>
 #include<stdlib.h>
@@ -97,7 +97,7 @@ Symbol 	 addr 			 type
 
 CODE 2:
 
-//AP21110011277
+//AP21110010978
 class TreeNode {
     String key;
     int value;
