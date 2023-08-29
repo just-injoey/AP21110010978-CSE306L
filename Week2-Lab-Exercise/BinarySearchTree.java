@@ -12,7 +12,7 @@ class TreeNode {
     }
 }
 
-class BinarySearchTree {
+class BST {
     TreeNode root;
 
     public void insert(String key, int value) {
@@ -44,10 +44,18 @@ class BinarySearchTree {
         }
         return searchRecursive(current.right, key);
     }
+}
 
+public class BinarySearchTree {
     public static void main(String[] args) {
-        BinarySearchTree symbolTable = new BinarySearchTree();
+        BST symbolTable = new BST();
         symbolTable.insert("variable1", 42);
+        symbolTable.insert("variable2", 78);
+        symbolTable.insert("variable3", 123);
+
         System.out.println(symbolTable.search("variable1")); // Output: 42
+        System.out.println(symbolTable.search("variable2")); // Output: 78
+        System.out.println(symbolTable.search("variable3")); // Output: 123
+        System.out.println(symbolTable.search("nonexistent")); // Output: null
     }
 }
