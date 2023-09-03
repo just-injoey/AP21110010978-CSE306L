@@ -1,0 +1,23 @@
+ 
+ int : keyword 
+ main : identifier
+(
+)
+{ 
+ int : keyword 
+ a : identifier
+ b : identifier
++
+ c : identifier
+;
+ return : identifier 
+0: number
+;
+}
+Symbol Table:
+1: int
+2: main
+3: a
+4: b
+5: c
+6: return
